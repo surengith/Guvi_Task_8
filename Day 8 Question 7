@@ -1,0 +1,12 @@
+package com.JavaPractice.org;
+
+public class String_Length {
+	public static void main(String[] args) {
+		String str = "Guvi Greek";
+		int length = str.length();
+		System.out.println("Length of the String is: " +length);
+	}
+}
+
+OutPut Console:
+Length of the String is: 10
