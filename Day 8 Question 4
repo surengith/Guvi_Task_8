@@ -1,0 +1,31 @@
+package com.JavaPractice.org;
+
+import java.util.Scanner;
+
+public class Swapping_Numbers {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Enter the First Number:");
+		int firstnumber = scan.nextInt();
+
+		System.out.println("Enter the Second Number");
+		int secondnumber = scan.nextInt();
+
+		int store = firstnumber;
+		firstnumber = secondnumber;
+		secondnumber = store;
+
+		System.out.println("Swapped Value First Number: " + firstnumber);
+		System.out.println("Swapped Value Second Number: " + secondnumber);
+
+	}
+}
+
+OutPut Console:
+Enter the First Number:
+100
+Enter the Second Number
+200
+Swapped Value First Number: 200
+Swapped Value Second Number: 100
