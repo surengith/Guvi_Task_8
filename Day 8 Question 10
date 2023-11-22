@@ -1,0 +1,22 @@
+package com.JavaPractice.org;
+
+import java.util.Scanner;
+
+public class Integer_Count {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Enter an integer: ");
+
+		int number = scanner.nextInt();
+
+		int countDigits = countDigits(number);
+		System.out.println("Count of the Integer is: " + countDigits);
+
+	}
+
+	public static int countDigits(int num) {
+		String count = Integer.toString(num);
+		return count.length();
+	}
+}
