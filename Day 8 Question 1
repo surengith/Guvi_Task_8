@@ -1,0 +1,19 @@
+package com.JavaPractice.org;
+
+public class Variables {
+	public static void main(String[] args) {
+		int a = 12;
+		int b = 10;
+		int c = 10;
+		int d = 8;
+		
+		if(a+b > c+d) {
+			System.out.println("The sum of a and b is greater than the sum of c and d");
+		}
+		else {
+			System.out.println("The sum of a and b is not greater than the sum of c and d ");
+		}
+	}
+}
+OutPut Console:
+The sum of a and b is greater than the sum of c and d
