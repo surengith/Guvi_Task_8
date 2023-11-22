@@ -1,0 +1,29 @@
+package com.JavaPractice.org;
+
+public class Print_10Times {
+	public static void main(String[] args) {
+
+		int count = 0;
+
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Welcome to Guvi");
+			count++;
+		}
+
+		System.out.println("Total count of the String is: " + count);
+	}
+
+}
+
+OutPut Console:
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Welcome to Guvi
+Total count of the String is: 10
